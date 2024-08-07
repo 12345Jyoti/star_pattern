@@ -196,5 +196,42 @@ num++;
                 }
             
 
+                System.out.println();
+                System.out.println();
+
+              for (int i = 0; i < n; i++) {
+                
+                    for(int j=0;j<n-i+1;j++){
+                        System.out.print("*");
+                    }
+                    for(int a=0;a<2*i;a++){
+                        System.err.print(" ");
+                    }
+
+                    for(int j=0;j<n-i+1;j++){
+                        System.out.print("*");
+                    }
+                    
+
+               
+            //         for (int x = 0; x < n; x++) {
+                        
+                    
+             //         int intS=8;
+            //         for(int k=0;k<=x;k++){
+            //             System.out.print("*");
+            //         } for(int l=0;l<=intS;l++){
+            //             System.out.print(" ");
+            //         }
+            //         for(int k=0;k<=x;k++){
+            //             System.out.print("*");
+            //         }
+            //         intS-=2;
+            //     }
+            // }
+            //     System.out.println();
+            //   }
+
+
 
     }}

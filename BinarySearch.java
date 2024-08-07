@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class BinarySearch {
@@ -11,7 +12,7 @@ public class BinarySearch {
         int arr[]=new int[size];
         boolean flag=false;
         int l=0;
-        int h=arr.length;
+        int h=arr.length-1;
       
         for (int i=0;i<size;i++){
             arr[i]=sc.nextInt();
